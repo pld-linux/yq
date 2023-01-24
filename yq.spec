@@ -19,6 +19,8 @@ BuildRequires:	xz
 ExclusiveArch:	%go_arches
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_debugsource_packages	0
+
 %description
 A lightweight and portable command-line YAML, JSON and XML processor.
 yq uses jq like syntax but works with yaml files as well as json, xml,
