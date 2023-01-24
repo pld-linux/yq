@@ -11,7 +11,7 @@ Source0:	https://github.com/mikefarah/yq/archive/v%{version}/%{name}-%{version}.
 Source1:	%{name}-vendor-%{vendor_ver}.tar.xz
 # Source1-md5:	00401f6d57414f386cea4893efabdfa9
 URL:		https://mikefarah.gitbook.io/yq/
-BuildRequires:	golang
+BuildRequires:	golang >= 1.19
 BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 2.009
 BuildRequires:	tar >= 1:1.22
